@@ -43,7 +43,7 @@ function ProfileAvatar() {
         />
         {/* Photo */}
         <img
-          src="/profile.png"
+          src={`${import.meta.env.BASE_URL}profile.png`}
           alt="Jahanvi"
           style={{
             position: 'absolute',
@@ -133,7 +133,7 @@ export default function HeroSection() {
                 Let's Talk
               </Link>
               <a
-                href={siteConfig.resumeUrl}
+                href={`${import.meta.env.BASE_URL}Jahanvi_2026.pdf`}
                 download="Jahanvi_2026.pdf"
                 className="hero__resume-link"
                 aria-label="Download resume PDF"

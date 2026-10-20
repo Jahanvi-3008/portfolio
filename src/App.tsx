@@ -36,7 +36,7 @@ function AnimatedRoutes() {
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/portfolio">
         <AnimatedRoutes />
       </BrowserRouter>
     </ThemeProvider>
