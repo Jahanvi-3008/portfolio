@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B12"/>
+      <stop offset="100%" stop-color="#0D1424"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A78BFA"/>
+      <stop offset="100%" stop-color="#71D5E8"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="20%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="#A78BFA" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="80%" cy="70%" r="40%">
+      <stop offset="0%" stop-color="#71D5E8" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#71D5E8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+  <!-- Border -->
+  <rect x="32" y="32" width="1136" height="566" rx="20" fill="none" stroke="#A78BFA" stroke-opacity="0.15" stroke-width="1"/>
+  <!-- Name -->
+  <text x="100" y="240" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="96" fill="url(#violet)">Jahanvi</text>
+  <!-- Title -->
+  <text x="100" y="308" font-family="'Inter', Arial, sans-serif" font-weight="400" font-size="28" fill="#8B9EC1">Backend Software Engineer · Node.js · NestJS · PostgreSQL</text>
+  <!-- Tags -->
+  <rect x="100" y="360" width="140" height="36" rx="8" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="170" y="383" font-family="monospace" font-size="14" fill="#A78BFA" text-anchor="middle">TypeScript</text>
+  <rect x="252" y="360" width="110" height="36" rx="8" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="307" y="383" font-family="monospace" font-size="14" fill="#A78BFA" text-anchor="middle">Node.js</text>
+  <rect x="374" y="360" width="126" height="36" rx="8" fill="#A78BFA" fill-opacity="0.12" stroke="#A78BFA" stroke-opacity="0.3" stroke-width="1"/>
+  <text x="437" y="383" font-family="monospace" font-size="14" fill="#A78BFA" text-anchor="middle">PostgreSQL</text>
+  <rect x="512" y="360" width="106" height="36" rx="8" fill="#71D5E8" fill-opacity="0.1" stroke="#71D5E8" stroke-opacity="0.25" stroke-width="1"/>
+  <text x="565" y="383" font-family="monospace" font-size="14" fill="#71D5E8" text-anchor="middle">NestJS</text>
+  <!-- Stat -->
+  <text x="100" y="468" font-family="'Space Grotesk', Arial, sans-serif" font-weight="700" font-size="20" fill="#4B6080">4+ Years · GeekyAnts · 500K+ Users Migrated · 3 Awards</text>
+</svg>
