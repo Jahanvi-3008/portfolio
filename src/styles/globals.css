@@ -377,6 +377,8 @@ body::after {
   display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap;
 }
 .footer__copy { font-size: 12.5px; color: var(--text-3); }
+.footer__meta { display: flex; align-items: center; gap: 16px; }
+.footer__views { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--text-3); }
 .footer__email { font-size: 12.5px; color: var(--text-2); transition: color 0.2s; }
 .footer__email:hover { color: var(--violet); }
 

@@ -1,8 +1,11 @@
 import { Link } from 'react-router-dom';
+import { Eye } from 'lucide-react';
 import { siteConfig } from '../../config/site';
+import { usePageViews } from '../../hooks/usePageViews';
 
 export default function Footer() {
   const year = 2026;
+  const views = usePageViews();
 
   return (
     <footer className="footer" role="contentinfo">
@@ -39,9 +42,17 @@ export default function Footer() {
 
       <div className="footer__bottom">
         <p className="footer__copy">© {year} Jahanvi. Built with React & TypeScript.</p>
-        <a href={`mailto:${siteConfig.email}`} className="footer__email">
-          {siteConfig.email}
-        </a>
+        <div className="footer__meta">
+          {views != null && (
+            <span className="footer__views">
+              <Eye size={13} />
+              {views.toLocaleString()} views
+            </span>
+          )}
+          <a href={`mailto:${siteConfig.email}`} className="footer__email">
+            {siteConfig.email}
+          </a>
+        </div>
       </div>
     </footer>
   );
